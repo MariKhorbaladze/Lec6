@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+     gap: 36px;
+}
+
+.nav_link{
+    list-style: none;
+    gap: 36px;
+}
+
+.nav_link li{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+
+.active{
+    color: black !important ;
+    border-bottom: blueviolet 2px solid;
+}
+.active a{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.secondary_btn{
+    width: 102px;
+    height: 51px;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 2px;
+    background-color: transparent;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+.primary_btn{
+    width: 140px;
+    height: 51px;
+    background-color: azure;
+    border: 1px solid blue;
+    border-radius: 2px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+.col-5{
+    width: 45%;
+}
+.col-6{
+    width: 50%;
+}
+.content_container h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: white;
+    width: 489px;
+    
+    
+    
+}
+.content_container p{
+margin-top: 30px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+color: white;
+width: 433px;
+   
+   
+}
+.content_container .primary_btn{
+    margin-top: 30px;
+}
+#banner{
+    margin-top: 75px;
+}
+
